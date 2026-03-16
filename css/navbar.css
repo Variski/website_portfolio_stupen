@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 80px;
+  border-bottom: 1px solid #333;
+  background: #000;
+}
+
+.brand a {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.menu a {
+  padding: 8px 20px;
+  text-decoration: none;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #a855f7;
+}
+
+.menu a.resume {
+  background: #6b21a8;
+  border-radius: 6px;
+  color: white;
+}
+
+.menu a.resume:hover {
+  background: #4c1d95;
+}

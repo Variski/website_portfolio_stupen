@@ -1,0 +1,79 @@
+.about {
+  position: relative;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.about-divider {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+}
+
+.about-divider hr {
+  border: none;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.about-heading {
+  margin-left: 128px;
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #757575;
+}
+
+/* Layout container */
+.about-container {
+  max-width: 1500px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 80px 8px 0;
+}
+
+.about-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: start;
+}
+
+.about-image img {
+  width: 900px;
+  height: 700px;
+  border-radius: 12px;
+  display: block;
+  margin-left: 80px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
+}
+
+.about-content {
+  max-width: 520px;
+  padding: 0 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.about-block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about-kicker {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 600;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.85;
+  color: rgba(255, 255, 255, 0.8);
+}
